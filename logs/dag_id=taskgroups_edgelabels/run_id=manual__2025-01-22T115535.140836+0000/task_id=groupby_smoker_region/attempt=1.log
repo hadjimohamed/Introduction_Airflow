@@ -1,0 +1,23 @@
+[2025-01-22T11:55:40.408+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-22T11:55:40.421+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: taskgroups_edgelabels.groupby_smoker_region manual__2025-01-22T11:55:35.140836+00:00 [queued]>
+[2025-01-22T11:55:40.427+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: taskgroups_edgelabels.groupby_smoker_region manual__2025-01-22T11:55:35.140836+00:00 [queued]>
+[2025-01-22T11:55:40.427+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-22T11:55:40.436+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): groupby_smoker_region> on 2025-01-22 11:55:35.140836+00:00
+[2025-01-22T11:55:40.441+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=3213) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-22T11:55:40.443+0000] {standard_task_runner.py:72} INFO - Started process 3215 to run task
+[2025-01-22T11:55:40.443+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'taskgroups_edgelabels', 'groupby_smoker_region', 'manual__2025-01-22T11:55:35.140836+00:00', '--job-id', '305', '--raw', '--subdir', 'DAGS_FOLDER/taskgroups_edgelabels.py', '--cfg-path', '/tmp/tmpdk35lqie']
+[2025-01-22T11:55:40.444+0000] {standard_task_runner.py:105} INFO - Job 305: Subtask groupby_smoker_region
+[2025-01-22T11:55:40.477+0000] {task_command.py:467} INFO - Running <TaskInstance: taskgroups_edgelabels.groupby_smoker_region manual__2025-01-22T11:55:35.140836+00:00 [running]> on host 7854821b9569
+[2025-01-22T11:55:40.623+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mohamed' AIRFLOW_CTX_DAG_ID='taskgroups_edgelabels' AIRFLOW_CTX_TASK_ID='groupby_smoker_region' AIRFLOW_CTX_EXECUTION_DATE='2025-01-22T11:55:35.140836+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-22T11:55:35.140836+00:00'
+[2025-01-22T11:55:40.624+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-22T11:55:40.642+0000] {warnings.py:112} WARNING - /opt/***/dags/functions.py:119: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df=pd.read_json(data_json)
+
+[2025-01-22T11:55:40.655+0000] {python.py:240} INFO - Done. Returned value was: {"smoker":{"0":"no","1":"yes"},"age":{"0":39.3171188026,"1":38.6594202899},"bmi":{"0":30.6565014032,"1":30.6727717391},"charges":{"0":8409.0259392133,"1":31963.7626972464}}
+[2025-01-22T11:55:40.669+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-22T11:55:40.670+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=taskgroups_edgelabels, task_id=groupby_smoker_region, run_id=manual__2025-01-22T11:55:35.140836+00:00, execution_date=20250122T115535, start_date=20250122T115540, end_date=20250122T115540
+[2025-01-22T11:55:40.697+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-22T11:55:40.707+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-22T11:55:40.710+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

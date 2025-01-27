@@ -1,0 +1,23 @@
+[2025-01-26T09:34:42.133+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-26T09:34:42.142+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: final_dag_test.reading_processing_data.clean_data manual__2025-01-26T09:34:39.972745+00:00 [queued]>
+[2025-01-26T09:34:42.147+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: final_dag_test.reading_processing_data.clean_data manual__2025-01-26T09:34:39.972745+00:00 [queued]>
+[2025-01-26T09:34:42.149+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-26T09:34:42.158+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): reading_processing_data.clean_data> on 2025-01-26 09:34:39.972745+00:00
+[2025-01-26T09:34:42.163+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1112) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-26T09:34:42.164+0000] {standard_task_runner.py:72} INFO - Started process 1114 to run task
+[2025-01-26T09:34:42.164+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'final_dag_test', 'reading_processing_data.clean_data', 'manual__2025-01-26T09:34:39.972745+00:00', '--job-id', '465', '--raw', '--subdir', 'DAGS_FOLDER/t.py', '--cfg-path', '/tmp/tmploj0x7ji']
+[2025-01-26T09:34:42.166+0000] {standard_task_runner.py:105} INFO - Job 465: Subtask reading_processing_data.clean_data
+[2025-01-26T09:34:42.193+0000] {task_command.py:467} INFO - Running <TaskInstance: final_dag_test.reading_processing_data.clean_data manual__2025-01-26T09:34:39.972745+00:00 [running]> on host 7854821b9569
+[2025-01-26T09:34:42.237+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='final_dag_test' AIRFLOW_CTX_TASK_ID='reading_processing_data.clean_data' AIRFLOW_CTX_EXECUTION_DATE='2025-01-26T09:34:39.972745+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-26T09:34:39.972745+00:00'
+[2025-01-26T09:34:42.238+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-26T09:34:42.260+0000] {warnings.py:112} WARNING - /opt/***/dags/tfon.py:9: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df=pd.read_json(json_data)
+
+[2025-01-26T09:34:42.284+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-26T09:34:42.289+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-26T09:34:42.290+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=final_dag_test, task_id=reading_processing_data.clean_data, run_id=manual__2025-01-26T09:34:39.972745+00:00, execution_date=20250126T093439, start_date=20250126T093442, end_date=20250126T093442
+[2025-01-26T09:34:42.339+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-26T09:34:42.354+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-26T09:34:42.358+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

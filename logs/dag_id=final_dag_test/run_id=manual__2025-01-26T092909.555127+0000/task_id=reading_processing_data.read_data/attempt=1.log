@@ -1,0 +1,20 @@
+[2025-01-26T09:29:10.291+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-26T09:29:10.302+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: final_dag_test.reading_processing_data.read_data manual__2025-01-26T09:29:09.555127+00:00 [queued]>
+[2025-01-26T09:29:10.306+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: final_dag_test.reading_processing_data.read_data manual__2025-01-26T09:29:09.555127+00:00 [queued]>
+[2025-01-26T09:29:10.308+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-26T09:29:10.318+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): reading_processing_data.read_data> on 2025-01-26 09:29:09.555127+00:00
+[2025-01-26T09:29:10.323+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=977) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-26T09:29:10.324+0000] {standard_task_runner.py:72} INFO - Started process 979 to run task
+[2025-01-26T09:29:10.325+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'final_dag_test', 'reading_processing_data.read_data', 'manual__2025-01-26T09:29:09.555127+00:00', '--job-id', '449', '--raw', '--subdir', 'DAGS_FOLDER/t.py', '--cfg-path', '/tmp/tmpmphj7oe6']
+[2025-01-26T09:29:10.328+0000] {standard_task_runner.py:105} INFO - Job 449: Subtask reading_processing_data.read_data
+[2025-01-26T09:29:10.360+0000] {task_command.py:467} INFO - Running <TaskInstance: final_dag_test.reading_processing_data.read_data manual__2025-01-26T09:29:09.555127+00:00 [running]> on host 7854821b9569
+[2025-01-26T09:29:10.411+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='final_dag_test' AIRFLOW_CTX_TASK_ID='reading_processing_data.read_data' AIRFLOW_CTX_EXECUTION_DATE='2025-01-26T09:29:09.555127+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-26T09:29:09.555127+00:00'
+[2025-01-26T09:29:10.412+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-26T09:29:10.447+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-26T09:29:10.453+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-26T09:29:10.454+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=final_dag_test, task_id=reading_processing_data.read_data, run_id=manual__2025-01-26T09:29:09.555127+00:00, execution_date=20250126T092909, start_date=20250126T092910, end_date=20250126T092910
+[2025-01-26T09:29:10.501+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-26T09:29:10.515+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-26T09:29:10.519+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

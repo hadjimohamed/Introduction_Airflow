@@ -1,0 +1,20 @@
+[2025-01-23T13:00:18.161+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-23T13:00:18.170+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: taskgroupbs_edgelabels.reading_data_processisng_data.read_dataset manual__2025-01-23T13:00:17.105151+00:00 [queued]>
+[2025-01-23T13:00:18.175+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: taskgroupbs_edgelabels.reading_data_processisng_data.read_dataset manual__2025-01-23T13:00:17.105151+00:00 [queued]>
+[2025-01-23T13:00:18.176+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-23T13:00:18.186+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): reading_data_processisng_data.read_dataset> on 2025-01-23 13:00:17.105151+00:00
+[2025-01-23T13:00:18.190+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=2439) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-23T13:00:18.192+0000] {standard_task_runner.py:72} INFO - Started process 2441 to run task
+[2025-01-23T13:00:18.191+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'taskgroupbs_edgelabels', 'reading_data_processisng_data.read_dataset', 'manual__2025-01-23T13:00:17.105151+00:00', '--job-id', '415', '--raw', '--subdir', 'DAGS_FOLDER/taskgroups_edgelabels.py', '--cfg-path', '/tmp/tmpt9yld0at']
+[2025-01-23T13:00:18.193+0000] {standard_task_runner.py:105} INFO - Job 415: Subtask reading_data_processisng_data.read_dataset
+[2025-01-23T13:00:18.219+0000] {task_command.py:467} INFO - Running <TaskInstance: taskgroupbs_edgelabels.reading_data_processisng_data.read_dataset manual__2025-01-23T13:00:17.105151+00:00 [running]> on host 7854821b9569
+[2025-01-23T13:00:18.366+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mohamed' AIRFLOW_CTX_DAG_ID='taskgroupbs_edgelabels' AIRFLOW_CTX_TASK_ID='reading_data_processisng_data.read_dataset' AIRFLOW_CTX_EXECUTION_DATE='2025-01-23T13:00:17.105151+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-23T13:00:17.105151+00:00'
+[2025-01-23T13:00:18.367+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-23T13:00:18.396+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-23T13:00:18.401+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-23T13:00:18.402+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=taskgroupbs_edgelabels, task_id=reading_data_processisng_data.read_dataset, run_id=manual__2025-01-23T13:00:17.105151+00:00, execution_date=20250123T130017, start_date=20250123T130018, end_date=20250123T130018
+[2025-01-23T13:00:18.447+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-23T13:00:18.464+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-23T13:00:18.468+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

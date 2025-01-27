@@ -1,0 +1,23 @@
+[2025-01-22T11:05:06.680+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-22T11:05:06.693+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: branching_variables.filter_southest manual__2025-01-22T11:05:01.388569+00:00 [queued]>
+[2025-01-22T11:05:06.699+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: branching_variables.filter_southest manual__2025-01-22T11:05:01.388569+00:00 [queued]>
+[2025-01-22T11:05:06.700+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-22T11:05:06.709+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): filter_southest> on 2025-01-22 11:05:01.388569+00:00
+[2025-01-22T11:05:06.715+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=2366) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-22T11:05:06.716+0000] {standard_task_runner.py:72} INFO - Started process 2368 to run task
+[2025-01-22T11:05:06.716+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'branching_variables', 'filter_southest', 'manual__2025-01-22T11:05:01.388569+00:00', '--job-id', '260', '--raw', '--subdir', 'DAGS_FOLDER/branching_variables.py', '--cfg-path', '/tmp/tmp4fzlf3za']
+[2025-01-22T11:05:06.718+0000] {standard_task_runner.py:105} INFO - Job 260: Subtask filter_southest
+[2025-01-22T11:05:06.745+0000] {task_command.py:467} INFO - Running <TaskInstance: branching_variables.filter_southest manual__2025-01-22T11:05:01.388569+00:00 [running]> on host 7854821b9569
+[2025-01-22T11:05:06.900+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mohamed' AIRFLOW_CTX_DAG_ID='branching_variables' AIRFLOW_CTX_TASK_ID='filter_southest' AIRFLOW_CTX_EXECUTION_DATE='2025-01-22T11:05:01.388569+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-22T11:05:01.388569+00:00'
+[2025-01-22T11:05:06.902+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-22T11:05:06.921+0000] {warnings.py:112} WARNING - /opt/***/dags/functions.py:69: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df=pd.read_json(json_data)
+
+[2025-01-22T11:05:06.930+0000] {python.py:240} INFO - Done. Returned value was: {"age":{},"sex":{},"bmi":{},"children":{},"smoker":{},"region":{},"charges":{}}
+[2025-01-22T11:05:06.944+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-22T11:05:06.944+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=branching_variables, task_id=filter_southest, run_id=manual__2025-01-22T11:05:01.388569+00:00, execution_date=20250122T110501, start_date=20250122T110506, end_date=20250122T110506
+[2025-01-22T11:05:06.971+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-22T11:05:06.982+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-22T11:05:06.985+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

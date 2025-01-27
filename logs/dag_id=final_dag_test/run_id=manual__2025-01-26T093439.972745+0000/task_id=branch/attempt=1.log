@@ -1,0 +1,24 @@
+[2025-01-26T09:34:43.240+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-26T09:34:43.251+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: final_dag_test.branch manual__2025-01-26T09:34:39.972745+00:00 [queued]>
+[2025-01-26T09:34:43.255+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: final_dag_test.branch manual__2025-01-26T09:34:39.972745+00:00 [queued]>
+[2025-01-26T09:34:43.258+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-01-26T09:34:43.267+0000] {taskinstance.py:2889} INFO - Executing <Task(BranchPythonOperator): branch> on 2025-01-26 09:34:39.972745+00:00
+[2025-01-26T09:34:43.272+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1116) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-26T09:34:43.274+0000] {standard_task_runner.py:72} INFO - Started process 1125 to run task
+[2025-01-26T09:34:43.274+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'final_dag_test', 'branch', 'manual__2025-01-26T09:34:39.972745+00:00', '--job-id', '466', '--raw', '--subdir', 'DAGS_FOLDER/t.py', '--cfg-path', '/tmp/tmprmo9qu8a']
+[2025-01-26T09:34:43.276+0000] {standard_task_runner.py:105} INFO - Job 466: Subtask branch
+[2025-01-26T09:34:43.311+0000] {task_command.py:467} INFO - Running <TaskInstance: final_dag_test.branch manual__2025-01-26T09:34:39.972745+00:00 [running]> on host 7854821b9569
+[2025-01-26T09:34:43.365+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='final_dag_test' AIRFLOW_CTX_TASK_ID='branch' AIRFLOW_CTX_EXECUTION_DATE='2025-01-26T09:34:39.972745+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-26T09:34:39.972745+00:00'
+[2025-01-26T09:34:43.366+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-26T09:34:43.374+0000] {baseoperator.py:421} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2025-01-26T09:34:43.380+0000] {python.py:240} INFO - Done. Returned value was: grouping.groupby
+[2025-01-26T09:34:43.381+0000] {branch.py:38} INFO - Branch into grouping.groupby
+[2025-01-26T09:34:43.382+0000] {skipmixin.py:230} INFO - Following branch ('grouping.groupby',)
+[2025-01-26T09:34:43.390+0000] {skipmixin.py:278} INFO - Skipping tasks [('filtering.filter_by_southeast', -1), ('filtering.filter_by_southwest', -1)]
+[2025-01-26T09:34:43.412+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-26T09:34:43.413+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=final_dag_test, task_id=branch, run_id=manual__2025-01-26T09:34:39.972745+00:00, execution_date=20250126T093439, start_date=20250126T093443, end_date=20250126T093443
+[2025-01-26T09:34:43.449+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-26T09:34:43.467+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-26T09:34:43.471+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
