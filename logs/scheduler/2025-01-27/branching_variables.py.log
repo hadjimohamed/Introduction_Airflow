@@ -831,3 +831,17 @@
 [2025-01-27T09:02:06.340+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:02:06.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-27T09:02:06.353+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:02:06.353+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_variables to None, run_after=None
 [2025-01-27T09:02:06.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/branching_variables.py took 0.250 seconds
+[2025-01-27T09:02:36.789+0000] {processor.py:186} INFO - Started process (PID=2005) to work on /opt/airflow/dags/branching_variables.py
+[2025-01-27T09:02:36.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/branching_variables.py for tasks to queue
+[2025-01-27T09:02:36.791+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:02:36.791+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/branching_variables.py
+[2025-01-27T09:02:37.060+0000] {processor.py:925} INFO - DAG(s) 'branching_variables' retrieved from /opt/airflow/dags/branching_variables.py
+[2025-01-27T09:02:37.078+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:02:37.077+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T09:02:37.091+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:02:37.091+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_variables to None, run_after=None
+[2025-01-27T09:02:37.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/branching_variables.py took 0.321 seconds
+[2025-01-27T09:03:07.635+0000] {processor.py:186} INFO - Started process (PID=2021) to work on /opt/airflow/dags/branching_variables.py
+[2025-01-27T09:03:07.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/branching_variables.py for tasks to queue
+[2025-01-27T09:03:07.637+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:03:07.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/branching_variables.py
+[2025-01-27T09:03:07.837+0000] {processor.py:925} INFO - DAG(s) 'branching_variables' retrieved from /opt/airflow/dags/branching_variables.py
+[2025-01-27T09:03:07.854+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:03:07.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T09:03:07.869+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:03:07.869+0000] {dag.py:4180} INFO - Setting next_dagrun for branching_variables to None, run_after=None
+[2025-01-27T09:03:07.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/branching_variables.py took 0.253 seconds

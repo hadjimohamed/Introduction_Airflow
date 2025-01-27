@@ -119,4 +119,4 @@ def groupby_smoker(ti):
         'age':'mean',
         'charges':'mean'
     }).reset_index()
-    ti.xcom_push(key='groupby',value=df_grpupby.to_json()) #khra
+    ti.xcom_push(key='groupby',value=df_grpupby.to_json())
