@@ -35426,3 +35426,101 @@ File Path                                   PID    Runtime      # DAGs    # Erro
 /opt/airflow/dags/postgre.py                                         1           0  0.24s           2025-01-27T08:57:30                      12
 /opt/airflow/dags/branching_variables.py                             1           0  0.24s           2025-01-27T08:57:28                      12
 ================================================================================
+[2025-01-27T08:58:28.532+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/taskgroups_edgelabels.py                           1           0  0.30s           2025-01-27T08:58:00                      12
+/opt/airflow/dags/postgre.py                                         1           0  0.29s           2025-01-27T08:58:01                      12
+/opt/airflow/dags/branching_variables.py                             1           0  0.28s           2025-01-27T08:57:59                      12
+/opt/airflow/dags/group_by.py                                        1           0  0.27s           2025-01-27T08:58:01                      12
+/opt/airflow/dags/branching.py                                       1           0  0.25s           2025-01-27T08:58:00                      12
+================================================================================
+[2025-01-27T08:58:58.735+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/group_by.py                                        1           0  0.29s           2025-01-27T08:58:32                      12
+/opt/airflow/dags/branching.py                                       1           0  0.28s           2025-01-27T08:58:31                      12
+/opt/airflow/dags/taskgroups_edgelabels.py                           1           0  0.27s           2025-01-27T08:58:31                      12
+/opt/airflow/dags/branching_variables.py                             1           0  0.26s           2025-01-27T08:58:29                      12
+/opt/airflow/dags/postgre.py                                         1           0  0.24s           2025-01-27T08:58:31                      12
+================================================================================
+[2025-01-27T08:59:28.801+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/branching_variables.py                             1           0  0.37s           2025-01-27T08:59:01                      12
+/opt/airflow/dags/group_by.py                                        1           0  0.28s           2025-01-27T08:59:02                      12
+/opt/airflow/dags/taskgroups_edgelabels.py                           1           0  0.28s           2025-01-27T08:59:01                      12
+/opt/airflow/dags/postgre.py                                         1           0  0.28s           2025-01-27T08:59:01                      12
+/opt/airflow/dags/branching.py                                       1           0  0.27s           2025-01-27T08:59:01                      12
+================================================================================
+[2025-01-27T08:59:58.440+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-27T08:59:58.531+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-27T08:59:59.549+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/taskgroups_edgelabels.py                           1           0  0.28s           2025-01-27T08:59:32                      12
+/opt/airflow/dags/postgre.py                                         1           0  0.27s           2025-01-27T08:59:33                      12
+/opt/airflow/dags/branching.py                                       1           0  0.26s           2025-01-27T08:59:33                      12
+/opt/airflow/dags/branching_variables.py                             1           0  0.26s           2025-01-27T08:59:32                      12
+/opt/airflow/dags/group_by.py                                        1           0  0.26s           2025-01-27T08:59:33                      12
+================================================================================
+[2025-01-27T09:00:29.636+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/postgre.py                                         1           0  0.30s           2025-01-27T09:00:04                      12
+/opt/airflow/dags/taskgroups_edgelabels.py                           1           0  0.28s           2025-01-27T09:00:02                      12
+/opt/airflow/dags/branching_variables.py                             1           0  0.28s           2025-01-27T09:00:02                      12
+/opt/airflow/dags/branching.py                                       1           0  0.28s           2025-01-27T09:00:04                      12
+/opt/airflow/dags/group_by.py                                        1           0  0.25s           2025-01-27T09:00:04                      12
+================================================================================
+[2025-01-27T09:01:00.216+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/taskgroups_edgelabels.py                           1           0  0.26s           2025-01-27T09:00:33                      12
+/opt/airflow/dags/branching_variables.py                             1           0  0.26s           2025-01-27T09:00:33                      12
+/opt/airflow/dags/postgre.py                                         1           0  0.26s           2025-01-27T09:00:34                      12
+/opt/airflow/dags/branching.py                                       1           0  0.25s           2025-01-27T09:00:34                      12
+/opt/airflow/dags/group_by.py                                        1           0  0.23s           2025-01-27T09:00:35                      12
+================================================================================
+[2025-01-27T09:01:30.361+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/taskgroups_edgelabels.py                           1           0  0.39s           2025-01-27T09:01:04                      12
+/opt/airflow/dags/branching_variables.py                             1           0  0.37s           2025-01-27T09:01:04                      12
+/opt/airflow/dags/group_by.py                                        1           0  0.28s           2025-01-27T09:01:06                      12
+/opt/airflow/dags/postgre.py                                         1           0  0.27s           2025-01-27T09:01:05                      12
+/opt/airflow/dags/branching.py                                       1           0  0.26s           2025-01-27T09:01:05                      12
+================================================================================
+[2025-01-27T09:02:01.040+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/branching.py                                       1           0  0.33s           2025-01-27T09:01:36                      12
+/opt/airflow/dags/group_by.py                                        1           0  0.31s           2025-01-27T09:01:37                      12
+/opt/airflow/dags/branching_variables.py                             1           0  0.30s           2025-01-27T09:01:35                      12
+/opt/airflow/dags/taskgroups_edgelabels.py                           1           0  0.30s           2025-01-27T09:01:35                      12
+/opt/airflow/dags/postgre.py                                         1           0  0.29s           2025-01-27T09:01:36                      12
+================================================================================

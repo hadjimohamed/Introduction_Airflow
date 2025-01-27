@@ -817,3 +817,17 @@
 [2025-01-27T09:01:06.040+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:01:06.040+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-27T09:01:06.056+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:01:06.056+0000] {dag.py:4180} INFO - Setting next_dagrun for Data_Pipeline to None, run_after=None
 [2025-01-27T09:01:06.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/group_by.py took 0.249 seconds
+[2025-01-27T09:01:36.800+0000] {processor.py:186} INFO - Started process (PID=1980) to work on /opt/airflow/dags/group_by.py
+[2025-01-27T09:01:36.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/group_by.py for tasks to queue
+[2025-01-27T09:01:36.804+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:01:36.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/group_by.py
+[2025-01-27T09:01:37.030+0000] {processor.py:925} INFO - DAG(s) 'Data_Pipeline' retrieved from /opt/airflow/dags/group_by.py
+[2025-01-27T09:01:37.048+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:01:37.048+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T09:01:37.063+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:01:37.062+0000] {dag.py:4180} INFO - Setting next_dagrun for Data_Pipeline to None, run_after=None
+[2025-01-27T09:01:37.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/group_by.py took 0.283 seconds
+[2025-01-27T09:02:07.439+0000] {processor.py:186} INFO - Started process (PID=1996) to work on /opt/airflow/dags/group_by.py
+[2025-01-27T09:02:07.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/group_by.py for tasks to queue
+[2025-01-27T09:02:07.442+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:02:07.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/group_by.py
+[2025-01-27T09:02:07.622+0000] {processor.py:925} INFO - DAG(s) 'Data_Pipeline' retrieved from /opt/airflow/dags/group_by.py
+[2025-01-27T09:02:07.643+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:02:07.642+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T09:02:07.656+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:02:07.656+0000] {dag.py:4180} INFO - Setting next_dagrun for Data_Pipeline to None, run_after=None
+[2025-01-27T09:02:07.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/group_by.py took 0.235 seconds
