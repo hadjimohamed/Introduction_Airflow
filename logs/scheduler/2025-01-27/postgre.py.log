@@ -775,3 +775,45 @@
 [2025-01-27T08:58:01.083+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:58:01.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-27T08:58:01.097+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:58:01.097+0000] {dag.py:4180} INFO - Setting next_dagrun for connection_postgre to None, run_after=None
 [2025-01-27T08:58:01.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgre.py took 0.255 seconds
+[2025-01-27T08:58:31.158+0000] {processor.py:186} INFO - Started process (PID=1880) to work on /opt/airflow/dags/postgre.py
+[2025-01-27T08:58:31.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgre.py for tasks to queue
+[2025-01-27T08:58:31.161+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:58:31.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgre.py
+[2025-01-27T08:58:31.338+0000] {processor.py:925} INFO - DAG(s) 'connection_postgre' retrieved from /opt/airflow/dags/postgre.py
+[2025-01-27T08:58:31.355+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:58:31.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T08:58:31.368+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:58:31.368+0000] {dag.py:4180} INFO - Setting next_dagrun for connection_postgre to None, run_after=None
+[2025-01-27T08:58:31.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgre.py took 0.230 seconds
+[2025-01-27T08:59:01.481+0000] {processor.py:186} INFO - Started process (PID=1896) to work on /opt/airflow/dags/postgre.py
+[2025-01-27T08:59:01.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgre.py for tasks to queue
+[2025-01-27T08:59:01.484+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:59:01.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgre.py
+[2025-01-27T08:59:01.676+0000] {processor.py:925} INFO - DAG(s) 'connection_postgre' retrieved from /opt/airflow/dags/postgre.py
+[2025-01-27T08:59:01.692+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:59:01.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T08:59:01.706+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:59:01.706+0000] {dag.py:4180} INFO - Setting next_dagrun for connection_postgre to None, run_after=None
+[2025-01-27T08:59:01.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgre.py took 0.246 seconds
+[2025-01-27T08:59:32.888+0000] {processor.py:186} INFO - Started process (PID=1912) to work on /opt/airflow/dags/postgre.py
+[2025-01-27T08:59:32.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgre.py for tasks to queue
+[2025-01-27T08:59:32.890+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:59:32.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgre.py
+[2025-01-27T08:59:33.075+0000] {processor.py:925} INFO - DAG(s) 'connection_postgre' retrieved from /opt/airflow/dags/postgre.py
+[2025-01-27T08:59:33.094+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:59:33.093+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T08:59:33.108+0000] {logging_mixin.py:190} INFO - [2025-01-27T08:59:33.108+0000] {dag.py:4180} INFO - Setting next_dagrun for connection_postgre to None, run_after=None
+[2025-01-27T08:59:33.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgre.py took 0.241 seconds
+[2025-01-27T09:00:03.837+0000] {processor.py:186} INFO - Started process (PID=1929) to work on /opt/airflow/dags/postgre.py
+[2025-01-27T09:00:03.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgre.py for tasks to queue
+[2025-01-27T09:00:03.841+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:00:03.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgre.py
+[2025-01-27T09:00:04.035+0000] {processor.py:925} INFO - DAG(s) 'connection_postgre' retrieved from /opt/airflow/dags/postgre.py
+[2025-01-27T09:00:04.051+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:00:04.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T09:00:04.065+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:00:04.065+0000] {dag.py:4180} INFO - Setting next_dagrun for connection_postgre to None, run_after=None
+[2025-01-27T09:00:04.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgre.py took 0.247 seconds
+[2025-01-27T09:00:34.718+0000] {processor.py:186} INFO - Started process (PID=1945) to work on /opt/airflow/dags/postgre.py
+[2025-01-27T09:00:34.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgre.py for tasks to queue
+[2025-01-27T09:00:34.720+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:00:34.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgre.py
+[2025-01-27T09:00:34.895+0000] {processor.py:925} INFO - DAG(s) 'connection_postgre' retrieved from /opt/airflow/dags/postgre.py
+[2025-01-27T09:00:34.909+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:00:34.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T09:00:34.922+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:00:34.922+0000] {dag.py:4180} INFO - Setting next_dagrun for connection_postgre to None, run_after=None
+[2025-01-27T09:00:34.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgre.py took 0.223 seconds
+[2025-01-27T09:01:05.550+0000] {processor.py:186} INFO - Started process (PID=1961) to work on /opt/airflow/dags/postgre.py
+[2025-01-27T09:01:05.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgre.py for tasks to queue
+[2025-01-27T09:01:05.552+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:01:05.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgre.py
+[2025-01-27T09:01:05.727+0000] {processor.py:925} INFO - DAG(s) 'connection_postgre' retrieved from /opt/airflow/dags/postgre.py
+[2025-01-27T09:01:05.747+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:01:05.747+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-27T09:01:05.763+0000] {logging_mixin.py:190} INFO - [2025-01-27T09:01:05.763+0000] {dag.py:4180} INFO - Setting next_dagrun for connection_postgre to None, run_after=None
+[2025-01-27T09:01:05.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgre.py took 0.235 seconds
